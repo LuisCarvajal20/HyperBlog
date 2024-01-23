@@ -1,6 +1,7 @@
 body
 {
-    color: #3368FF;
+    background: #1e1f24;
+    color: #333;
     text-align: center;
     font-family: "Arial";
     background-color: gray;
@@ -21,9 +22,10 @@ body
     border: 1px solid #ddd;
     margin: 0 auto;
 }
-#cabecera{
-
-    background: #33A;
+#cabecera 
+{
+    
+    background: rgb(154, 154, 170);
     box-shadow: 5px 9px 16px 0px rgba(0,0,0,0.75);
     color: white;
     font-weight: bold;
@@ -31,9 +33,15 @@ body
     padding: 0.5em;
 }
 #post{
+    background: white;
     padding: 1em;
 }
 #tagline{
     color: aqua;
     font-size: 0.8em;
+}
+#cabecera #logo
+{
+    vertical-align: middle;
+    width: 90px;
 }
